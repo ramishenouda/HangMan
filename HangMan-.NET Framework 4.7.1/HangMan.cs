@@ -713,6 +713,14 @@ namespace HangMan
         public static void Awake()
         {
             Console.CursorVisible = false;
+            
+            FileStream file;
+            if (!File.Exists(Words.Path))
+            {
+                file = new FileStream(Words.Path, FileMode.Create);
+                file.Close();
+            }
+
             HangManMenu.Awake();
         }
     }
