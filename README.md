@@ -11,4 +11,4 @@ GET [Visual Studio](https://visualstudio.microsoft.com/vs/)
 The objective of the game Hangman is to guess the word (phrase) by suggesting letters or numbers.<br>
 each time you fall to guess the word (phrase) you lose one point. the game will be over if you lost 3 points<br>
 
-![HangMan Game GIF](assets/gif.GIF)
+![HangMan Game GIF](assets/gif.gif)
