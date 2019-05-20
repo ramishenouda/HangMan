@@ -11,14 +11,14 @@ namespace HelpingFunctions
     {
         public static void Middle(string s, int x = 0, int y = 0)
         {
-            Console.SetCursorPosition(Math.Abs((Console.WindowWidth - s.Length + x) / 2), Math.Abs((Console.WindowHeight / 2) + y));
+            Console.SetCursorPosition(Math.Abs((Console.WindowWidth - s.Length) / 2 + x), Math.Abs((Console.WindowHeight / 2) + y));
             Console.Write(s);
         }
                                                         
         public static void MiddleC(string s, int x = 0, int y = 0)
         {
             ClearFunctions.ClearAll();
-            Console.SetCursorPosition(Math.Abs((Console.WindowWidth - s.Length + x) / 2), Math.Abs((Console.WindowHeight / 2) + y));
+            Console.SetCursorPosition(Math.Abs((Console.WindowWidth - s.Length) / 2 + x), Math.Abs((Console.WindowHeight / 2) + y));
             Console.Write(s);
         }
     }
