@@ -9,8 +9,8 @@ GET [Visual Studio](https://visualstudio.microsoft.com/vs/)
 ### Launching the game
 Click on (clone or download) button, then choose download ZIP<br>
 naviagte to the download location and unzip the file <br>
-Open (HangMan-.NET Framework 4.7.1.sln)<br>
-![HangManSLN](sln.PNG)<br>
+Open (HangMan-.NET Framework 4.7.1.sln)<br><br>
+![hangmanSLN](assets/sln.PNG)<br><br>
 now visual studio should open, so make sure you installed it<br>
 click on (Ctrl + Alt + L) at the same time, this will open the solution explorer <br>
 then click on anyfile you want to start editing or reading it <br>
